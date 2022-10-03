@@ -1,0 +1,133 @@
+.App {
+  text-align: center;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  background-color: #1c674a;
+  padding-top: 13px; 
+}
+.form{
+  margin-top: 100px;
+  margin-right: 100px;
+}
+table {
+  
+  border: 2px solid forestgreen;
+  width: 100px;
+  height: 70px;
+}
+
+.tablee{
+  margin: 15px;
+}
+  
+  
+td {
+  text-align: center;
+  border: 1px solid black;
+}
+
+.Route {
+  text-align: center;
+  
+  min-height: 100vh;
+  
+  /* padding-top: 13px; */
+  background-color: white;
+}
+
+.button{
+  display:flex;
+  justify-content: center;
+}
+.buttonn{
+  margin-left:10px;
+  margin-bottom: 35px;
+  background-color: whitesmoke;
+  color: blue;
+  border: none;
+}
+
+.Navbar{
+  display:inline;
+  padding-right: 50px;
+  float:left;
+}
+
+.Icon{
+  display:inline;
+  
+  
+}
+
+.Link{
+  font-size: 20px;
+  color: azure;
+}
+
+.box{
+  border-radius: 9px;
+  margin-bottom: 35px;
+  
+}
+
+.box:hover{
+  border-color: #61dafb;
+
+}
+.box:focus{ border-color:#cd3232; }
+
+.Img{
+
+  width: 100%;
+  height: 600px;
+  padding: 20px;
+}
+.Photo{
+  display:inline-block;
+  float: left;
+  background-color: white;
+  width:40%;
+  height:1000px;
+}
+
+.Photoo{
+  
+  height: 10px;
+  margin-bottom: 40px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #ccafaf;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
